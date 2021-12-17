@@ -21,6 +21,7 @@ public class YouTube {
         searchBtn.click();
         searchBtn.sendKeys("ajib dastan hain kahan shuru kahan khatam ");
         driver.findElement(By.id("search-icon-legacy")).click();
+        driver.findElement(By.className("style-scope yt-img-shadow")).click();
 
 
 
